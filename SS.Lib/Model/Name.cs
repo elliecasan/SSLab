@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SS.Lib
+namespace SS.Lib.Model
 {
-    public class Class1
+    public class Name
     {
+        public string FullName { get; set; }
+
+        public string Number { get; set; }
     }
 }
